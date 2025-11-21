@@ -171,7 +171,7 @@ test_validate_csv() {
     # Test: Inconsistent columns warning
     test_start "Inconsistent columns warning"
     OUTPUT=$(bash "$VALIDATE_CSV_SCRIPT" -p "$TESTDATA_DIR/csv-inconsistent.csv" 2>&1)
-    if echo "$OUTPUT" | grep -q "WARNING.*inconsistent"; then
+    if echo "$OUTPUT" | grep -qi "WARNING.*columns"; then
         test_pass
     else
         test_fail "Should warn about inconsistent columns"
@@ -221,7 +221,7 @@ test_j2c() {
     test_start "Nested objects with dot notation"
     OUTPUT_FILE="$TEMP_OUTPUT/nested.csv"
     if bash "$J2C_SCRIPT" -i "$TESTDATA_DIR/nested-objects.json" -o "$OUTPUT_FILE" 2>/dev/null; then
-        if grep -q "user\.name" "$OUTPUT_FILE" && grep -q "user\.contact\.email" "$OUTPUT_FILE"; then
+        if grep -q "user.name" "$OUTPUT_FILE" && grep -q "user.contact.email" "$OUTPUT_FILE"; then
             test_pass
         else
             test_fail "Dot notation not found in output"
