@@ -1,0 +1,497 @@
+======================================== 
+Unit Tests for doy_calculator.ps1 
+======================================== 
+ 
+  [PASS] Expected: 61, Got: 61 
+Test 6: March 1st 2023 should be day 60 
+  [PASS] Expected: 60, Got: 60 
+Test 7: July 4th 2024 should be day 186 
+  [PASS] Expected: 186, Got: 186 
+Test 8: January 1st 2000 should be day 1 
+  [PASS] Expected: 1, Got: 1 
+Test 9: December 31st 2025 should be day 365 
+  [PASS] Expected: 365, Got: 365 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 6 
+Passed:      6 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 45, Got: 45 
+ 
+======================================== 
+Testing Optional Parameters 
+======================================== 
+ 
+Test 11: No parameter should default to current date 
+  [PASS] No parameter defaults to today (day 295) 
+Test 12: Date format MM/DD/YYYY 
+  [PASS] Format 'MM/DD/YYYY': Expected: 1, Got: 1 
+Test 13: Date format 'Month Day, Year' 
+  [PASS] Format 'Month Day, Year': Expected: 1, Got: 1 
+Test 14: Date format YYYY-MM-DD (ISO) 
+  [PASS] Format 'YYYY-MM-DD': Expected: 186, Got: 186 
+Test 15: Date format DD-MMM-YYYY 
+  [PASS] Format 'DD-MMM-YYYY': Expected: 60, Got: 60 
+ 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 13 
+Passed:      13 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 14 
+Passed:      14 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 18 
+Passed:      18 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing Pipeline Input 
+Total Tests: 18 
+Passed:      18 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+ 
+Test 16: Date via pipeline 
+  [PASS] Pipeline input: Expected: 366, Got: 366 
+Test 17: Pipeline with leap day 
+  [PASS] Pipeline input: Expected: 60, Got: 60 
+ 
+======================================== 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 21 
+Passed:      21 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 22 
+Passed:      22 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 26 
+Passed:      26 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 1, Got: 1 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 28 
+Passed:      28 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 365, Got: 365 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 32 
+Passed:      32 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 366, Got: 366 
+======================================== 
+ 
+Test 11: No parameter should default to current date 
+  [PASS] No parameter defaults to today (day 295) 
+Test 12: Date format MM/DD/YYYY 
+  [PASS] Format 'MM/DD/YYYY': Expected: 1, Got: 1 
+Test 13: Date format 'Month Day, Year' 
+  [PASS] Format 'Month Day, Year': Expected: 1, Got: 1 
+Test 14: Date format YYYY-MM-DD (ISO) 
+  [PASS] Format 'YYYY-MM-DD': Expected: 186, Got: 186 
+Test 15: Date format DD-MMM-YYYY 
+  [PASS] Format 'DD-MMM-YYYY': Expected: 60, Got: 60 
+ 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 39 
+Passed:      39 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 40 
+Passed:      40 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 44 
+Passed:      44 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing Pipeline Input 
+Total Tests: 44 
+Passed:      44 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+ 
+Test 16: Date via pipeline 
+  [PASS] Pipeline input: Expected: 366, Got: 366 
+Test 17: Pipeline with leap day 
+  [PASS] Pipeline input: Expected: 60, Got: 60 
+ 
+======================================== 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 47 
+Passed:      47 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 48 
+Passed:      48 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 52 
+Passed:      52 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 60, Got: 60 
+Test 5: March 1st 2024 should be day 61 
+  [PASS] Expected: 61, Got: 61 
+Test 6: March 1st 2023 should be day 60 
+  [PASS] Expected: 60, Got: 60 
+Test 7: July 4th 2024 should be day 186 
+  [PASS] Expected: 186, Got: 186 
+Test 8: January 1st 2000 should be day 1 
+  [PASS] Expected: 1, Got: 1 
+Test 9: December 31st 2025 should be day 365 
+  [PASS] Expected: 365, Got: 365 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 59 
+Passed:      59 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+  [PASS] Expected: 45, Got: 45 
+ 
+======================================== 
+Testing Optional Parameters 
+======================================== 
+ 
+Test 11: No parameter should default to current date 
+  [PASS] No parameter defaults to today (day 295) 
+Test 12: Date format MM/DD/YYYY 
+  [PASS] Format 'MM/DD/YYYY': Expected: 1, Got: 1 
+Test 13: Date format 'Month Day, Year' 
+  [PASS] Format 'Month Day, Year': Expected: 1, Got: 1 
+Test 14: Date format YYYY-MM-DD (ISO) 
+  [PASS] Format 'YYYY-MM-DD': Expected: 186, Got: 186 
+Test 15: Date format DD-MMM-YYYY 
+  [PASS] Format 'DD-MMM-YYYY': Expected: 60, Got: 60 
+ 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 66 
+Passed:      66 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 67 
+Passed:      67 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 71 
+Passed:      71 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing Pipeline Input 
+Total Tests: 71 
+Passed:      71 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+ 
+Test 16: Date via pipeline 
+  [PASS] Pipeline input: Expected: 366, Got: 366 
+Test 17: Pipeline with leap day 
+  [PASS] Pipeline input: Expected: 60, Got: 60 
+ 
+======================================== 
+Testing Help and Documentation 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 74 
+Passed:      74 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 75 
+Passed:      75 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Test 18: Get-Help displays documentation 
+  [PASS] Get-Help  displays documentation 
+Test 19: Get-Help -Detailed shows detailed help 
+  [PASS] Get-Help -Detailed displays documentation 
+Test 20: Get-Help -Examples shows examples 
+  [PASS] Get-Help -Examples displays documentation 
+ 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
+Testing CmdletBinding Parameters 
+======================================== 
+ 
+Test 21: -Verbose parameter works 
+  [PASS] -Verbose parameter accepted: Expected: 1, Got: 1 
+ 
+======================================== 
+Test Results Summary 
+======================================== 
+Total Tests: 79 
+Passed:      79 
+Failed:      0 
+ 
+OVERALL RESULT: ALL TESTS PASSED 
